@@ -6,10 +6,13 @@
 
 html, body{
   height: 100%;
-  width: 100%;
+  width: 97%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
   background: #e6e6e6;
 }

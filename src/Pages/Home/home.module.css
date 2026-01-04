@@ -1,0 +1,47 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+
+.containerPosts{
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    margin-top: 4em;
+    padding: 0 3em;
+    gap: 4em;
+}
+
+.post{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.postImage{
+    margin-bottom: 1em;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.post h2{
+    font-size: 2.1em;
+    letter-spacing: 0.1em;
+    font-style: italic;
+}
+
+.post p{
+    padding: 0 1em;
+    font-size: 0.9em;
+    word-spacing: 0.3em;
+    line-height: 1.5em;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}

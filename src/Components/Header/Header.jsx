@@ -13,7 +13,7 @@ function Header(){
                 </ul>
             </div>
             <div className={Styles.titulo}>
-                <h2>Titulo</h2>
+                <h2>Diego Flausino</h2>
             </div>
             <div className={Styles.redes}>
                 <FiYoutube size={24} className={Styles.redesIcon}/> 

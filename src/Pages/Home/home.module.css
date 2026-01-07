@@ -4,6 +4,7 @@
     padding-bottom: 2em;
 }
 
+/*Componente de Posts*/
 .containerPosts{
     grid-template-columns: 1fr 1fr ;
     display: grid;
@@ -47,7 +48,7 @@
     border-bottom: 1px solid black;
 }
 
-
+/*Componente de Formulário*/
 .containerEmail{
     width: 100%;
     height: 550px;
@@ -75,6 +76,7 @@
 
 .containerEmail p{
     font-weight: 800;
+    font-size: 1.2em;
 }
 
 .form{
@@ -87,12 +89,19 @@
 
 
 .form input{
-    padding: 2em;
+    padding: 2em 3em;
+    outline: none;
 }
 
 .form button{
-    padding: 1.5em;
-    background-color: brown;
-    color: white;
+    padding: 1.5em 2em;
+    background-color: #c8a47e;
+    color: black;
     cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.form button:hover{
+    background-color: #b7926a;
 }

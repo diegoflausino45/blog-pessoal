@@ -60,6 +60,15 @@ function Home(){
                     </div>     
                 </div>
             </div>
+
+            <div className={Styles.containerEmail}>
+                <h1>Melhor pesca da semana</h1>
+                <p>Cadastre seu endereço de e-mail para receber novidades e atualizações.</p>
+                <div className={Styles.form}>
+                    <input className={Styles.input} type="email" name="email" id="" placeholder='Endereço de e-mail' />
+                    <button className={Styles.button}>Cadastra-se</button>
+                </div>
+            </div>
         </div>
     )
 }

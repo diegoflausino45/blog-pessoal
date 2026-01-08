@@ -1,0 +1,43 @@
+.containerSobre{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.hobbies{
+    width: 100%;
+    font-size: 2em;
+}
+
+.textoSinopse{
+    width: 100%;
+}
+
+
+.sinopse{
+    padding-left: 6em;
+    padding-bottom: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.email{
+    margin: 1em 0;
+    margin-bottom: 4em;
+    padding-left: 4em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.img{
+    background-image: url('../../Image/download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    margin: 4em 0;
+}

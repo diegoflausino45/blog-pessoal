@@ -1,14 +1,53 @@
-.header{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    padding: 1.7em 0;
-    font-size: 1.1em;
-    background: #e6e6e6;
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  padding: 1.7em 0;
+  background: #e6e6e6;
+
+  transition: transform 2.3s ease, opacity 2.3s ease;
+}
+
+.hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+
+.menuLink {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 4px;
+  position: relative;
+}
+
+/* underline base */
+.menuLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+
+/* hover */
+.menuLink:hover::after {
+  width: 100%;
+}
+
+/* ATIVO — MAIS ESPECÍFICO */
+.menuLink.active::after {
+  width: 100%;
 }
 
 .menu{
@@ -26,6 +65,8 @@
 .menu li:hover{
     transform: translateY(-5px);
 }
+
+
 
 .titulo{
     text-align: center;

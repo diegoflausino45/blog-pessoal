@@ -1,5 +1,6 @@
 import Styles from './footer.module.css'
 import {FiInstagram, FiYoutube, FiFacebook} from 'react-icons/fi'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -9,9 +10,9 @@ function Footer(){
             <h2>Diego Flausino</h2>
             <div>
                 <ul className={Styles.menu}>
-                    <li>Blog</li>
-                    <li>Sobre</li>
-                    <li>Galeria</li>
+                    <NavLink to={'/'} className={({isActive}) => `${Styles.menuLink} ${isActive ? Styles.active : ""}`}><li>Blog</li></NavLink>
+                    <NavLink to={'/sobre'} className={({isActive}) => `${Styles.menuLink} ${isActive ? Styles.active : ""}`} ><li>Sobre</li></NavLink>
+                    <NavLink to={'/galeria'} className={({isActive}) => `${Styles.menuLink} ${isActive ? Styles.active : ""}`}><li>Galeria</li></NavLink>
                 </ul>
             </div>
             <div className={Styles.redes}>

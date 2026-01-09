@@ -17,6 +17,14 @@
     font-size: 1.8em;
 }
 
+.menuLink {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 4px;
+  position: relative;
+}
+
+
 .menu{
     list-style: none;
     text-decoration: none;
